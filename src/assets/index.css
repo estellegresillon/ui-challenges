@@ -10,6 +10,11 @@
   src: local("Gilroy"), url(./fonts/Gilroy-ExtraBold.otf) format("woff");
 }
 
+@font-face {
+  font-family: "Voyage";
+  src: local("Voyage"), url(./fonts/Voyage-Bold.ttf) format("woff");
+}
+
 body {
   margin: 0;
   font-family: "Gilroy", sans-serif;

@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
-import WavesCanvas from "Challenges/WavesCanvas";
 import StripeMenu from "Challenges/StripeMenu";
+import MixBlendHover from "Challenges/MixBlendHover";
+import WavesCanvas from "Challenges/WavesCanvas";
 import CreditCardForm from "Challenges/CreditCardForm";
 import StackedMenu from "Challenges/StackedMenu";
+import TranslateItems from "Challenges/TranslateItems";
 
 const Home = () => (
   <HomeWrapper>
     <StripeMenu />
+    <MixBlendHover />
     <WavesCanvas />
+    <TranslateItems />
     <CreditCardForm />
     <StackedMenu />
   </HomeWrapper>

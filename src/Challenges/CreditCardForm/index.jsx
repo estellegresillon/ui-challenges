@@ -61,7 +61,6 @@ const CreditCardFormWrapper = styled.div`
   padding-top: 200px;
   width: 100%;
   background: linear-gradient(100deg, #bee9f9, #b6deff);
-  background: linear-gradient(100deg, #f5f5f5, #e2e2e2);
 
   .form-wrapper {
     position: relative;

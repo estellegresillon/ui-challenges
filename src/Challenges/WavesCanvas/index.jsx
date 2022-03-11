@@ -93,9 +93,9 @@ const WavesCanvas = () => {
     my_gradient.addColorStop(0, "#e8ecff");
     my_gradient.addColorStop(1, "#d7e0ff");
 
-    wave("#ed77b2", 20, init.h * 0.5, "screen"); // red
+    wave("blue", 20, init.h * 0.5, "screen"); // red
     wave("#bcccff", 25, init.h * 0.5, "screen"); // blue
-    wave("#cd9fff", 25, init.h * 0.5, "screen"); // purple
+    wave("white", 25, init.h * 0.5, "screen"); // purple
 
     init.yoff += init.yinc;
     init.goff += init.ginc;

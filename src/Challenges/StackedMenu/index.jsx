@@ -105,7 +105,7 @@ const StackedMenuWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120vh;
+  height: 100vh;
   width: 100%;
   position: relative;
   background: #fff8f9;
